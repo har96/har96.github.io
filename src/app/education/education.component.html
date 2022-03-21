@@ -1,0 +1,16 @@
+<div class="container-md">
+    <h1>Education</h1>
+
+    <div class="row">
+        <div class="col px-4" *ngFor="let degree of degrees">
+            <!-- Add a modal to show list of classes -->
+            <div class="card text-black">
+                <div class="card-body">
+                    <h5 class="card-title">{{degree.level}} in {{degree.major}}</h5>
+                    <h6 class="card-subtitle text-muted">{{degree.university}} - {{degree.gpa.toFixed(1) }}</h6>
+                    <p class="card-text">{{degree.details}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
