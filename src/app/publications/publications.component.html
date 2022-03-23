@@ -1,7 +1,9 @@
 <div class="container-md">
     <h1>Publications</h1>
 
-    <div *ngFor="let pub of publications">
-        <span class="h6">{{ pub.reference }}</span>
-    </div>
+    <ul>
+        <li *ngFor="let pub of publications">
+            <span class="h6">{{ pub.reference }}</span>
+        </li>
+    </ul>
 </div>

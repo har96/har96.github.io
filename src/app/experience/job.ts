@@ -20,13 +20,12 @@ Programmed for research teams full-time every summer and part-time for one year 
       {
           title: "Research Computer Engineer",
           employer: "US Army Corp of Engineers",
-          skills: ["Python", "C Programming", "C++ Programming", "cuda", "Web Development", "Data Processing"],
+          skills: ["Python", "C", "C++", "Bash", "Unix/Linux", "HTML/Javascript", "Machine Learning", "Image Processing", "Graphics Card Programming", "SQL", "Excel"],
           start_date: new Date("2019-01-14"),
           end_date: new Date(0),
           description: `
 Specialized in parallelizing C and C++ simulation software for High Performance Computing, developing data processing pipelines and visualizations with Python, automating shell workflows in Linux/Unix, and writing technical publications. Published seven peer-reviewed papers, four as first author. Presented my research at two conferences as well as numerous internal briefings and project showcases.
 
-Assisted in budget management of project funds.
-Technologies: Python, C, C++, Bash, Unix/Linux, HTML/Javascript, Machine Learning, Image Processing, Graphics Card Programming, SQL, Excel`
+Assisted in budget management of project funds.`
       }
 ];
