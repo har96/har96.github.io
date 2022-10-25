@@ -2,8 +2,8 @@
     <h1>Work Experience</h1>
 
     <div class="card text-black">
-        <div class="card-header">
-            <ul ngbNav #nav="ngbNav" class="nav-tabs card-header-tabs nav-fill">
+        <div class="card-body">
+            <ul ngbNav #nav="ngbNav" class="nav-pills card-header-tabs nav-fill">
                 <li ngbNavItem *ngFor="let job of jobs">
                     <a ngbNavLink class="h4">{{job.title}}
                         <small class="mx-3 text-muted">{{job.start_date | date:"LLLL YYYY"}} to
@@ -16,12 +16,12 @@
                     <ng-template ngbNavContent>
                         <div class="px-5 py-2">
                             <pre class="job-description fs-5">{{job.description}}</pre>
-                            <div>Skills: <button class="btn btn-secondary m-1" *ngFor="let skill of job.skills">{{skill}}</button></div>
+                            <div>Skills: <button class="btn btn-secondary text-white m-1" *ngFor="let skill of job.skills">{{skill}}</button></div>
                         </div>
                     </ng-template>
                 </li>
             </ul>
+        <div [ngbNavOutlet]="nav"></div>
         </div>
-        <div class="card-body" [ngbNavOutlet]="nav"></div>
     </div>
 </div>
