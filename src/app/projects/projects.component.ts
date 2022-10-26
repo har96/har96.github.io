@@ -19,7 +19,7 @@ export class ProjectsComponent implements OnInit {
 
   getCategoryClass(category: string): string {
       switch (category) {
-          case "Work":
+          case "Professional":
               return "btn-success";
           case "Personal":
               return "btn-primary";
