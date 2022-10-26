@@ -1,0 +1,29 @@
+<div class="container-md my-5">
+    <h1>Past Projects</h1>
+
+    
+    <div class="row">
+        <div class="col-md-4 py-4" *ngFor="let project of projects">
+            <div class="card text-black">
+                <div class="card-header py-3">
+                    <div class="row">
+                        <div class="col-6 h-100 align-middle">
+                            <h6 class="card-subtitle text-muted col">{{project.subtitle}}</h6>
+                        </div>
+                        <div class="col-6 text-end">
+                            <button class="btn col {{getCategoryClass(project.category)}}">{{project.category}}</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <a href="{{project.link}}" class="text-reset h5 card-title text-decoration-none">{{project.title}}</a>
+                    <p class="card-text">{{project.description}}</p>
+                    <a href="{{project.link}}" class="card-link text-secondary">{{project.link}}</a>
+                </div>
+                <div class="card-footer text-muted">
+                    <button class="btn btn-secondary text-white m-1" *ngFor="let tag of project.tech_stack">{{tag}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
