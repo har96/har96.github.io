@@ -7,13 +7,15 @@ import { PublicationsComponent } from './publications/publications.component';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PublicationsComponent,
     EducationComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
