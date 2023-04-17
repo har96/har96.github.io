@@ -83,8 +83,8 @@ export const PROJECTS: Project[] = [
     {
         title: "Thermal Vegetation Modeling",
         subtitle: "Software Engineering Architecture",
-        description: "I am completely rewriting a legacy thermal vegetation simulation in modern C++. The goal is easy validation and verification in addition to high performance, so I'm building a modular API complete with a unit test suite, a continuous integration pipeline through Gitlab, and a decoupled code design.",
-        tech_stack: [ "C++", "Google Test", "Gitlab", "Object Oriented Design" ],
+        description: "I completely rewrote a legacy thermal vegetation simulation in modern C++, achieving easy validation and verification in addition to high performance with a modular API complete with a unit test suite, a continuous integration pipeline through Gitlab, decoupled code design, and python bindings for public C++ objects and routines.",
+        tech_stack: [ "C++", "Google Test", "Gitlab", "Object Oriented Design", "pybind11" ],
         link: "",
         start_date: new Date("2021-10"),
         category: "Professional",

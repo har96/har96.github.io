@@ -6,11 +6,12 @@
             <ul ngbNav #nav="ngbNav" class="nav-pills card-header-tabs nav-fill">
                 <li ngbNavItem *ngFor="let job of jobs">
                     <a ngbNavLink class="h4">{{job.title}}
-                        <small class="mx-3 text-muted">{{job.start_date | date:"LLLL YYYY"}} to
+                        <small class="mx-3 text-muted">
+                            {{job.employer}}
+                            <br>
+                            {{job.start_date | date:"LLLL YYYY"}} to
                             <span *ngIf="job.end_date.valueOf() === 0 else endBlock">Present</span>
                             <ng-template #endBlock>{{job.end_date | date:"LLLL YYYY"}}</ng-template>
-                            <br>
-                            {{job.employer}}
                         </small>
                     </a>
                     <ng-template ngbNavContent>
