@@ -31,10 +31,10 @@ Assisted in budget management of project funds.`
       {
           title: "Software Engineer",
           employer: "Dassault Systemes",
-          skills: ["C++", "Unix/Linux", "Google Test"],
+          skills: ["C++", "Unix/Linux", "Google Test", "Agile Development", "Software Lifecycle Management" ],
           start_date: new Date("2022-12-05"),
           end_date: new Date(0),
           description: `
-Developed commercial C++ software for the DS ENOVIA brand.`
+Developing commercial SemiConductor software in backend C++ for the Dassault's ENOVIA brand.`
       }
 ];
