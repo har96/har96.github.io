@@ -15,26 +15,24 @@ export const EXPERIENCE: Job[] = [
           start_date: new Date("2012-05"),
           end_date: new Date("2018-08"),
           description: `
-Programmed for research teams full-time every summer and part-time for one year during my freshman year in college (2014/15). Developed Python, C, and shell script programs for tradespace analysis, filesystem testing, database programming, and game engine visualization.`,
+Developed programs for tradespace analysis, filesystem testing, database programming, and game engine visualization in numerous technologies including Python, C, and Bash through high school and college.`,
       },
       {
           title: "Research Computer Engineer",
           employer: "US Army Corp of Engineers",
-          skills: ["Python", "C", "C++", "Bash", "Unix/Linux", "HTML/Javascript", "Machine Learning", "Image Processing", "Graphics Card Programming", "SQL", "Excel"],
+          skills: ["Python", "C", "C++", "Bash", "Parallel Processing", "Unix/Linux", "Machine Learning", "Image Processing", "Graphics Card Programming", "HTML/Javascript", "SQL"],
           start_date: new Date("2019-01-14"),
           end_date: new Date("2022-12-02"),
           description: `
-Specialized in parallelizing C and C++ simulation software for High Performance Computing, developing data processing pipelines and visualizations with Python, automating shell workflows in Linux/Unix, and writing technical publications. Published seven peer-reviewed papers, four as first author. Presented my research at two conferences as well as numerous internal briefings and project showcases.
-
-Assisted in budget management of project funds.`
+Specialized in parallelizing C and C++ simulation software for High Performance Computing, developing data processing pipelines and visualizations with Python, automating shell workflows in Linux/Unix, and writing technical publications. Published seven peer-reviewed papers, four as first author. Presented my research at two conferences as well as numerous internal briefings and project showcases.`
       },
       {
           title: "Software Engineer",
           employer: "Dassault Systemes",
-          skills: ["C++", "Unix/Linux", "Google Test", "Agile Development", "Software Lifecycle Management" ],
+          skills: ["C++", "Python", "Threaded Concurrency", "Unix/Linux", "Google Test", "Agile Development", "Software Lifecycle Management" ],
           start_date: new Date("2022-12-05"),
           end_date: new Date(0),
           description: `
-Developing commercial SemiConductor software in backend C++ for the Dassault's ENOVIA brand.`
+Engaged in designing and developing code for both modern C++ and Python components of a semiconductor revision control product. I play a pivotal role in designing and building core API components, algorithms, and data models for our Python layer, while implementing threaded components and developing new features in our C++ application.`
       }
 ];

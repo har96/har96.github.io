@@ -28,7 +28,7 @@ export const PROJECTS: Project[] = [
         link: "https://github.com/HoltHunter/BullyHack20",
         start_date: new Date("2020-01-22"),
         category: "Personal",
-        magnitude: 7,
+        magnitude: 5,
     },
     {
         title: "Fava-Plaid Integration",
@@ -38,7 +38,7 @@ export const PROJECTS: Project[] = [
         link: "https://github.com/har96/fava-plaid",
         start_date: new Date("2020-06"),
         category: "Personal",
-        magnitude: 5
+        magnitude: 4
     },
     {
         title: "TableTennisTrainer - Intelligent Ping Pong Launcher",
@@ -58,7 +58,7 @@ export const PROJECTS: Project[] = [
         link: "https://github.com/erdc-cv19/covid19-forecast-hub",
         start_date: new Date("2020-05"),
         category: "Professional",
-        magnitude: 8,
+        magnitude: 7,
     },
     {
         title: "Radiative Transfer Simulation",
@@ -68,12 +68,12 @@ export const PROJECTS: Project[] = [
         link: "http://dx.doi.org/10.1145/3374135.3385310",
         start_date: new Date("2019-01"),
         category: "Professional",
-        magnitude: 9
+        magnitude: 8
     },
     {
         title: "Machine-Agnostic Efficient Ray Tracing",
         subtitle: "Graphics Card Programming and Rendering",
-        description: "I built C++ API wrappers to simplify ray casting functionality for NVIDIA Optix on the GPU and Intel Embree on the CPU, allowing our clients to easily add machine-agnostic ray casting to their rendering pipeline.",
+        description: "I built C++ API wrappers to provide a cross-platform ray casting interface for NVIDIA Optix on the GPU and Intel Embree on the CPU, allowing our clients to easily add machine-agnostic ray casting to their rendering pipeline.",
         tech_stack: [ "C++", "NVIDIA Optix", "Intel Embree" ],
         link: "",
         start_date: new Date("2021-10"),
@@ -88,6 +88,6 @@ export const PROJECTS: Project[] = [
         link: "",
         start_date: new Date("2021-10"),
         category: "Professional",
-        magnitude: 7,
+        magnitude: 9,
     }
 ]

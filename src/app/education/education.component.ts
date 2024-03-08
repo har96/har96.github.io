@@ -14,7 +14,7 @@ export class EducationComponent implements OnInit {
           university: "Mississippi State University",
           major: "Computational Engineering",
           gpa: 4.0,
-          details: "Completed the project-based degree with a focus on Signal Processing"
+          details: "Concentration in Signal Processing"
       },
       {
           level: "Bachelor of Science",
